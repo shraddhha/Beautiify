@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
 * {
     margin: 0;
     padding: 0;
@@ -16,10 +15,12 @@
     --dark: #f50414;
 }
 
+
 /* Scrollbar Css */
 
 ::-webkit-scrollbar-thumb {
     background: rgba(152, 151, 151, 0.883);
+    color: rgb(22, 11, 31);
 }
 
 ::-webkit-scrollbar {
@@ -35,6 +36,7 @@
     background: rgb(228, 53, 82);
     border-radius: 10px;
 }
+
 
 /* Preloader Css */
 
@@ -143,7 +145,6 @@
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
     }
-
     100% {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
@@ -155,12 +156,12 @@
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
     }
-
     100% {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
     }
 }
+
 
 /* Preloader Css Ends */
 
@@ -369,6 +370,7 @@ nav a {
     background-color: white;
 }
 
+
 /* Components Section Css */
 
 section {
@@ -455,6 +457,7 @@ section {
     text-align: center;
     z-index: 2;
 }
+
 
 /* Container Section Css */
 
@@ -547,6 +550,7 @@ section {
     text-shadow: 1px 1px 2px black, 1px 1px 2px rgb(175, 189, 200);
 }
 
+
 /* Footer Css */
 
 .footer {
@@ -625,10 +629,7 @@ footer p a {
     place-items: center;
     border-radius: 50%;
     transition: opacity 0.3s, background-color 0.3s;
-    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .3),
-        -4px -4px 6px 0 rgba(116, 125, 136, .2),
-        inset -4px -4px 6px 0 rgba(255, 255, 255, .2),
-        inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .3), -4px -4px 6px 0 rgba(116, 125, 136, .2), inset -4px -4px 6px 0 rgba(255, 255, 255, .2), inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
     cursor: pointer;
 }
 
@@ -656,6 +657,7 @@ footer p a {
     font-size: 26px;
     color: black;
 }
+
 
 /* Search Bar Css */
 
@@ -713,6 +715,7 @@ footer p a {
     box-shadow: -5px -5px 10px #9961a1;
 }
 
+
 /* Media Queries */
 
 @media (max-width: 1030px) {
@@ -722,7 +725,6 @@ footer p a {
         width: auto;
         height: 90vh;
     }
-
     .started {
         height: 7vh;
         font-size: 22px;
@@ -745,12 +747,10 @@ footer p a {
         width: auto;
         height: fit-content;
     }
-
     .compcontainer {
         border: 1px transparent;
         padding-bottom: 10px;
     }
-
     .started {
         height: 6vh;
         font-size: 20px;
@@ -764,7 +764,6 @@ footer p a {
     nav a {
         font-size: 1.8rem;
     }
-
     nav ul {
         gap: 1.5rem;
     }
@@ -774,7 +773,6 @@ footer p a {
     nav a {
         font-size: 1.7rem;
     }
-
     nav ul {
         gap: 1rem;
     }
@@ -787,17 +785,14 @@ footer p a {
         width: auto;
         height: fit-content;
     }
-
     .compcontainer {
         border: 1px transparent;
         padding-bottom: 10px;
     }
-
     #mySearch {
         height: 6rem;
         width: 50rem;
     }
-
     .started {
         height: 6vh;
         font-size: 20px;
@@ -818,18 +813,15 @@ footer p a {
     .comp-section {
         height: fit-content;
     }
-
     .compcontainer {
         border: 1px transparent;
         padding-bottom: 0px;
     }
-
     #mySearch {
         height: 5rem;
         width: 30rem;
         font-size: 1.6rem;
     }
-
     /* .container {
         margin-top: 50px;
     } */
@@ -850,54 +842,43 @@ footer p a {
         height: 100vh;
         gap: 50px;
     }
-
     .nav-menu .nav-item.active .nav-link {
         color: red;
     }
-
     .compcontainer h1 {
         font-size: 400%;
         padding-bottom: 40px;
     }
-
     .compcontainer h3 {
         font-size: 200%;
         padding-bottom: 40px;
     }
-
     .compcontainer p {
         font-size: 120%;
         text-align: center;
     }
-
     .nav-menu.active {
         left: 0;
         gap: 50px;
     }
-
     .nav-item {
         margin: 1.7rem 0;
         font-size: 21px;
     }
-
     nav li:hover {
         border-bottom: 0.4rem var(--light) solid;
         transition: 0.3s ease-in-out;
     }
-
     .hamburger {
         display: block;
         cursor: pointer;
     }
-
     .hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
-
     .hamburger.active .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
     }
-
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
@@ -908,7 +889,6 @@ footer p a {
         width: 100%;
         padding: 2px;
     }
-
     .started {
         height: 5vh;
         font-size: 20px;
@@ -916,7 +896,6 @@ footer p a {
         margin-top: 6vh;
         padding: 5px 30px;
     }
-
     .box {
         width: 280px !important;
         margin: 15px !important;
